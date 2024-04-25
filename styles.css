@@ -64,4 +64,11 @@ footer {
     header img {
         margin-bottom: 5px; /* Adjust space below the image for smaller screens */
     }
+
+    /* Adjust size of the second image for smaller screens */
+    section#funny img {
+        max-width: 100%; /* Make sure the image is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
+
